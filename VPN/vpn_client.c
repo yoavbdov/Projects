@@ -210,7 +210,7 @@ int main()
     //creating a set of file descriptors
     fd_set readFDSet;
     
-    //initializing the set
+    // initializing the set
     FD_ZERO(&readFDSet);
 
     //adding to the set those 2 fd
